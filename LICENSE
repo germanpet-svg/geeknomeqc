@@ -1,0 +1,112 @@
+================================================================================
+GeekNome QC — Proprietary License
+Copyright (c) 2026 GeekNome · Bioinformatics Division. All Rights Reserved.
+================================================================================
+
+Author: FES. German Peña
+ORCID:  0009-0004-0164-5414
+Contact: contact@geeknome.com
+Website: https://geeknome.com/geeknomeqc
+
+--------------------------------------------------------------------------------
+TERMS AND CONDITIONS
+--------------------------------------------------------------------------------
+
+1. GRANT OF LICENSE
+
+   GeekNome grants you a limited, non-exclusive, non-transferable, revocable
+   license to download, install, and use the compiled binaries of GeekNome QC
+   ("the Software") for PERSONAL, ACADEMIC, and NON-COMMERCIAL RESEARCH
+   purposes only, subject to the terms below.
+
+2. RESTRICTIONS
+
+   You may NOT, without prior written permission from GeekNome:
+
+   (a) Use the Software, in whole or in part, for any commercial purpose,
+       including but not limited to: sale, resale, licensing, sublicensing,
+       SaaS offering, integration into a commercial product or service, or
+       use in a for-profit organization's internal production pipeline.
+
+   (b) Modify, adapt, translate, reverse engineer, decompile, disassemble,
+       or create derivative works based on the Software.
+
+   (c) Redistribute, sublicense, rent, lease, lend, or transfer the Software
+       to any third party, in original or modified form.
+
+   (d) Remove, obscure, or alter any copyright notice, trademark, or other
+       proprietary marking on the Software.
+
+   (e) Use the Software in any way that competes with GeekNome or its
+       products and services.
+
+3. COMMERCIAL LICENSING
+
+   Commercial use requires a separate, paid commercial license. To inquire:
+
+   Email: contact@geeknome.com
+   Subject: "Commercial License — GeekNome QC"
+
+   Commercial licenses are negotiated on a case-by-case basis and may include
+   enterprise deployment, OEM integration, SaaS offering, or white-label use.
+
+4. ACADEMIC USE
+
+   Free academic use is granted for:
+   - Non-commercial research at accredited universities and research institutes
+   - Publication of scientific results obtained using the Software
+   - Teaching and coursework in non-commercial educational settings
+
+   Required citation in academic publications:
+
+   @article{pena2026geeknome,
+     title   = {De Novo FASTQ Quality Control Engine in C11 and WebAssembly},
+     author  = {Pe{\~n}a, German},
+     journal = {Bioinformatics},
+     year    = {2026},
+     note    = {ORCID: 0009-0004-0164-5414}
+   }
+
+5. OWNERSHIP
+
+   The Software is licensed, not sold. GeekNome retains all right, title, and
+   interest in and to the Software, including all intellectual property rights.
+   No rights are granted by implication, estoppel, or otherwise, except as
+   expressly stated in this License.
+
+6. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE AUTHORS AND
+   COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES REGARDING THE USE
+   OR THE RESULTS OF THE USE OF THE SOFTWARE.
+
+7. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+   DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+   OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. TERMINATION
+
+   This license terminates automatically if you breach any of its terms. Upon
+   termination, you must destroy all copies of the Software in your possession
+   or control.
+
+9. GOVERNING LAW
+
+   This License is governed by the laws of the Bolivarian Republic of Venezuela,
+   without regard to its conflict of law principles. Any dispute arising under
+   this License shall be resolved exclusively in the courts of Venezuela.
+
+10. SEVERABILITY
+
+    If any provision of this License is held to be unenforceable, the remaining
+    provisions shall remain in full force and effect.
+
+================================================================================
+For commercial licensing: contact@geeknome.com
+For academic collaboration: contact@geeknome.com
+================================================================================
