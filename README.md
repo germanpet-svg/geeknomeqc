@@ -4,11 +4,11 @@
 
 **De novo FASTQ Quality Control Engine — Native C & WebAssembly**
 
-[![Latest Release](https://img.shields.io/github/v/release/geeknome/geeknome-qc?label=latest\&color=00b4d8\&style=flat-square)](https://github.com/geeknome/geeknome-qc/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/geeknome/geeknome-qc/total?color=2a9d8f\&style=flat-square)](https://github.com/geeknome/geeknome-qc/releases)
+[![Latest Release](https://img.shields.io/github/v/release/germanpet-svg/geeknomeqc?label=latest&color=00b4d8&style=flat-square)](https://github.com/germanpet-svg/geeknomeqc/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/germanpet-svg/geeknomeqc/total?color=2a9d8f&style=flat-square)](https://github.com/germanpet-svg/geeknomeqc/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-blue?style=flat-square)](#-download)
-[![WebAssembly](https://img.shields.io/badge/WebAssembly-ready-654ff0?style=flat-square\&logo=webassembly\&logoColor=white)](https://geeknome.com/geeknomeqc)
+[![WebAssembly](https://img.shields.io/badge/WebAssembly-ready-654ff0?style=flat-square&logo=webassembly&logoColor=white)](https://geeknome.com/geeknomeqc)
 
 **99.98% numerical parity with fastp · Up to 3.25× faster · Zero dependencies · Deterministic**
 
@@ -46,13 +46,13 @@ Pre-compiled binaries are provided for:
 * 🪟 Windows x86_64
 * 🌐 WebAssembly / browser
 
-| Platform   | Architecture | Download                                                                          |
-| ---------- | ------------ | --------------------------------------------------------------------------------- |
-| 🐧 Linux   | x86_64       | [Latest Linux release](https://github.com/geeknome/geeknome-qc/releases/latest)   |
-| 🪟 Windows | x86_64       | [Latest Windows release](https://github.com/geeknome/geeknome-qc/releases/latest) |
-| 🌐 Web     | Browser      | [geeknome.com/geeknomeqc](https://geeknome.com/geeknomeqc)                        |
+| Platform   | Architecture | Download                                                                              |
+| ---------- | ------------ | ------------------------------------------------------------------------------------- |
+| 🐧 Linux   | x86_64       | [Latest Linux release](https://github.com/germanpet-svg/geeknomeqc/releases/latest)   |
+| 🪟 Windows | x86_64       | [Latest Windows release](https://github.com/germanpet-svg/geeknomeqc/releases/latest) |
+| 🌐 Web     | Browser      | [geeknome.com/geeknomeqc](https://geeknome.com/geeknomeqc)                            |
 
-👉 **[View all releases](https://github.com/geeknome/geeknome-qc/releases)**
+👉 **[View all releases](https://github.com/germanpet-svg/geeknomeqc/releases)**
 
 > Always verify the SHA256 checksum of downloaded binaries before execution.
 
@@ -86,16 +86,16 @@ Pre-compiled binaries are provided for:
 
 Download the latest release from:
 
-https://github.com/geeknome/geeknome-qc/releases/latest
+https://github.com/germanpet-svg/geeknomeqc/releases/latest
 
 Example:
 
 ```bash
 VERSION="2.3.0"
 
-wget "https://github.com/geeknome/geeknome-qc/releases/download/v${VERSION}/geeknomeqc-v${VERSION}-linux-x86_64.tar.gz"
+wget "https://github.com/germanpet-svg/geeknomeqc/releases/download/v${VERSION}/geeknomeqc-v${VERSION}-linux-x86_64.tar.gz"
 
-wget "https://github.com/geeknome/geeknome-qc/releases/download/v${VERSION}/SHA256SUMS.txt"
+wget "https://github.com/germanpet-svg/geeknomeqc/releases/download/v${VERSION}/SHA256SUMS.txt"
 ```
 
 ### Verify the download
@@ -146,14 +146,14 @@ geeknomeqc sample_R1.fastq clean_R1.fastq report.json 16 \
 
 Download the Windows ZIP from:
 
-https://github.com/geeknome/geeknome-qc/releases/latest
+https://github.com/germanpet-svg/geeknomeqc/releases/latest
 
 PowerShell example:
 
 ```powershell
 $VERSION = "2.3.0"
 
-$url = "https://github.com/geeknome/geeknome-qc/releases/download/v${VERSION}/geeknomeqc-v${VERSION}-windows-x86_64.zip"
+$url = "https://github.com/germanpet-svg/geeknomeqc/releases/download/v${VERSION}/geeknomeqc-v${VERSION}-windows-x86_64.zip"
 
 Invoke-WebRequest -Uri $url -OutFile "geeknomeqc.zip"
 ```
@@ -479,7 +479,7 @@ The native and WebAssembly builds are based on the same core processing engine.
 ## 📁 Repository structure
 
 ```text
-geeknome-qc/
+geeknomeqc/
 ├── src/
 │   └── ...
 ├── docs/
@@ -506,7 +506,7 @@ If you use GeekNome QC in research or software development, please cite the spec
   author  = {Peña, German},
   title   = {GeekNome QC: De novo FASTQ Quality Control Engine in C and WebAssembly},
   year    = {2026},
-  url     = {https://github.com/geeknome/geeknome-qc},
+  url     = {https://github.com/germanpet-svg/geeknomeqc},
   note    = {ORCID: 0009-0004-0164-5414}
 }
 ```
